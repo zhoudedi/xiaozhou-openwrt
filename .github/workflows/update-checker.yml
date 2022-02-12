@@ -4,11 +4,11 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
-# https://github.com/P3TERX/Actions-OpenWrt
-File: .github/workflows/update-checker.yml
-# Description: Source code update checker
+#https://github.com/P3TERX/Actions-OpenWrt
+#File: .github/workflows/update-checker.yml
+#Description: Source code update checker
 #
-
+#github/workflows/update-checker.yml
 name: Update Checker
 
 env:
