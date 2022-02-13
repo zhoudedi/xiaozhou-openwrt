@@ -9,6 +9,7 @@
 #Description: Source code update checker
 #
 #github/workflows/update-checker.yml
+.github/workflows/update-checker.yml
 name: Update Checker
 
 env:
