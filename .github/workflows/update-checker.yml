@@ -4,11 +4,11 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
-#https://github.com/P3TERX/Actions-OpenWrt
-File: .github/workflows/update-checker.yml
-#Description: Source code update checker
+# https://github.com/P3TERX/Actions-OpenWrt
+# File: .github/workflows/update-checker.yml
+# Description: Source code update checker
 #
-#github/workflows/update-checker.yml
+
 name: Update Checker
 
 env:
@@ -31,7 +31,6 @@ jobs:
       run: |
         git clone --depth 1 $REPO_URL -b $REPO_BRANCH .
         echo "::set-output name=commitHash::$(git rev-parse HEAD)"
-
     - name: Compare Commit Hash
       id: cacheHash
       uses: actions/cache@v2
@@ -43,7 +42,6 @@ jobs:
       if: steps.cacheHash.outputs.cache-hit != 'true'
       run: |
         echo ${{ steps.getHash.outputs.commitHash }} | tee .commitHash
-
     - name: Trigger build
       if: steps.cacheHash.outputs.cache-hit != 'true'
       uses: peter-evans/repository-dispatch@v1
