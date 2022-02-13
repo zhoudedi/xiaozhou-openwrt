@@ -16,4 +16,3 @@ git clone https://github.com/OpenWrt-Actions/openwrt-package-lienol package/open
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-#echo 'src-git luci https://github.com/openwrt/luci.git' >>feeds.conf.default
