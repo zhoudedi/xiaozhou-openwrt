@@ -5,11 +5,10 @@
 # See /LICENSE for more information.
 #
 #https://github.com/P3TERX/Actions-OpenWrt
-#File: .github/workflows/update-checker.yml
+File: .github/workflows/update-checker.yml
 #Description: Source code update checker
 #
 #github/workflows/update-checker.yml
-.github/workflows/update-checker.yml
 name: Update Checker
 
 env:
