@@ -17,7 +17,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: redmi_ac2100.config
+  CONFIG_FILE: configs/redmi_ac2100.config
   DIY_P1_SH: diy-xiaomi/diy-redmipart1.sh
   DIY_P2_SH: diy-xiaomi/diy-redmipart2.sh
   UPLOAD_BIN_DIR: true
