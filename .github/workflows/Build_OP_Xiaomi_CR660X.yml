@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: xiaomi_cr660x.config
+  CONFIG_FILE: configs/xiaomi_cr660x.config
   DIY_P1_SH: diy-xiaomi/diy-cr660xpart1.sh
   DIY_P2_SH: diy-xiaomi/diy-cr660xpart2.sh
   UPLOAD_BIN_DIR: true
