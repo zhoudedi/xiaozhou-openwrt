@@ -7,9 +7,9 @@ name: Build_Redmi_AC2100
 on:
   repository_dispatch:
   workflow_dispatch:
-   inputs:
+    inputs:
       ssh:
-       description: 'SSH connection to Actions'
+        description: 'SSH connection to Actions'
         required: false
         default: 'false'
 
